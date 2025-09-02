@@ -30,7 +30,6 @@ type GeneralOpenAIRequest struct {
 	Metadata            any             `json:"metadata,omitempty"`
 	FrequencyPenalty    *float64        `json:"frequency_penalty,omitempty"`
 	LogitBias           any             `json:"logit_bias,omitempty"`
-	Logprobs            *bool           `json:"logprobs,omitempty"`
 	TopLogprobs         *int            `json:"top_logprobs,omitempty"`
 	MaxTokens           int             `json:"max_tokens,omitempty"`
 	MaxCompletionTokens *int            `json:"max_completion_tokens,omitempty"`
